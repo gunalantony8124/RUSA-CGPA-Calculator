@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Select Semester
+        </title>
+        <link rel = "icon" href = "calsi.png" type = "image/x-icon">
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family:'Open Sans', sans-serif ;
+         }
+         body
+      {
+        position: relative;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-size: 150%;
+        background: linear-gradient(#252727 10%,#262729 18%,#232525 100%);
+        }
+        
+        .Semester_btn
+        {
+            width: 220px;
+            height: 120px;
+            border-radius: 20%;
+            background: linear-gradient(#252727 10%,#262729 18%,#232525 100%);
+            font-weight: bolder;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            box-shadow: 0 5px 15px wheat;
+            overflow: hidden;
+            color: wheat;
+            font-size: x-large;
+        }
+        .Semester_btn:hover
+        {
+            background: linear-gradient(#252727 10%,#262729 18%,#232525 100%);
+            transition: 0.3s;
+            transform: scale(1.2);
+            box-shadow: 0 5px 25px wheat;
+            overflow: hidden;
+            text-transform: uppercase;
+            color: wheat;
+        }
+        table
+      {
+          margin: auto;
+          border-collapse: collapse;
+          border-spacing: 0;
+          border: 0px solid rgb(107, 18, 18);
+          height:100%;
+          width: 100%;
+      }
+      th, td
+       {
+            text-align: center;
+            padding:15px;
+        }
+        .header
+        {
+            color: wheat;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 20px;
+            border: 0.1px solid wheat;
+            border-bottom: 0;
+            border-top: 0;
+            box-shadow: 0 0 15px wheat;
+        }
+        .header:hover
+        {
+            box-shadow: 0 0 25px wheat;
+        }
+    </style>
+    <body>
+        <table>
+           <div>
+            <tr><td colspan="3"><h1 class="header" style="text-align: center; border: 0 0 10px wheat;">Select Semester To Calculate GPA</h1></td></tr>
+           </div> 
+            <div class="Semester_select">
+                
+                    <tr>
+                        <form action="sem1GPA.html"><td><button class="Semester_btn">Semester - 1</button></td></form>
+                        <td></td>
+                        <form action="sem5GPA.html"><td><button class="Semester_btn">Semester - 5</button></td></form>
+                    </tr>
+
+                    <tr>
+                        <form action="sem2GPA.html"><td><button class="Semester_btn">Semester - 2</button></td></form>
+                        <form action="avgGPA.html"><td><button class="Semester_btn">Average CGPA</button></td></form>
+                        <form action="sem6GPA.html"><td><button class="Semester_btn">Semester - 6</button></td></form>
+                    </tr>
+
+                    <tr>
+                        <form action="sem3GPA.html"><td><button class="Semester_btn">Semester - 3</button></td></form>
+                        <td></td>
+                        <form action="sem7GPA.html"><td><button class="Semester_btn">Semester - 7</button></td></form>
+                    </tr>
+
+                    <tr>
+                        <form action="sem4GPA.html"><td><button class="Semester_btn">Semester - 4</button></td></form>
+                        <td></td>
+                        <form action="sem8GPA.html"><td><button class="Semester_btn">Semester - 8</button></td></form>
+                    </tr>
+
+                
+
+            </div>
+        </table>
+        <footer>    
+            <p style="font-size: 15px; position: absolute; left: 0%;bottom: 0%; color: wheat;">&copy;gunalantony8124</p>
+            <p style="font-size: 15px; position: absolute; right:0%;bottom: 0%; color: wheat;">&copy;RUSA-CT</p>
+        </footer>
+    </body>
+</html>
